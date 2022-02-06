@@ -75,6 +75,7 @@ class RestaurantTest {
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     //<<<<<<<<<<<<<<<<<<<<<<<<ORDER SUM>>>>>>>>>>>>>>>>>>>>>>>
+
     @Test
     public void order_sum_should_return_sum_of_price_of_selected_items() {
         List<String> itemNames = new ArrayList<String>();
